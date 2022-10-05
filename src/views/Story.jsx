@@ -3,7 +3,7 @@ import { Image } from 'cloudinary-react'
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import '../stylesheets/storieslist.css'
+import '../assets/stylesheets/storieslist.css'
 const StoryShow = ({ story }) => {
   const settings = {
     infinite: true,

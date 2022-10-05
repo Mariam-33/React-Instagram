@@ -1,5 +1,5 @@
 import React from 'react'
-import '../stylesheets/followerlist.css'
+import '../assets/stylesheets/followerlist.css'
 import { Image } from 'cloudinary-react'
 const FollowersList = ({ followers }) => {
   return (
@@ -14,7 +14,6 @@ const FollowersList = ({ followers }) => {
             </div>
         )}
           </div>
-
   )
 }
 export { FollowersList }

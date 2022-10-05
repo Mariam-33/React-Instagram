@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
-import { getAllStories } from '../api/stories'
-import { StoriesList } from '../views/StoriesList'
+import { getAllStories } from '../../api/stories'
+import { StoriesList } from '../../views/StoriesList'
 const Stories = () => {
   const [stories, setStories] = useState([])
   useEffect(() => {
