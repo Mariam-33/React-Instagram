@@ -1,23 +1,22 @@
-.container-box{
+.container-box {
   margin-top: 80px;
   margin-left: 450px;
   font-size: 14px;
   color: #262626;
-  font-family: 'Times New Roman', Times, serif;
+  font-family: "Times New Roman", Times, serif;
 }
-.profile{
+.profile {
   width: 100px;
   height: 100px;
   border-radius: 100px;
 }
-.data-box{
+.data-box {
   display: flex;
   padding: 10px;
 }
-.acc-name{
+.acc-name {
   padding-top: 30px;
   padding-left: 8px;
   font-size: 18px;
   font-weight: bold;
 }
-

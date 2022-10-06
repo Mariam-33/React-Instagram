@@ -23,14 +23,12 @@
 }
 
 .topnav a:hover {
-  background-color:#851770;
+  background-color: #851770;
   color: #fff;
 }
 
 .topnav a.active {
-  background-color:#851770;
-border-bottom: 4px solid white;
-color: #fff;
+  background-color: #851770;
+  border-bottom: 4px solid white;
+  color: #fff;
 }
-
-

@@ -1,4 +1,6 @@
-import { apiConnection } from './apiConnection'
-export const getAllFollowers = (setFunction) => {
- apiConnection('GET', 'relationships', setFunction)
+import {
+  apiConnection
+} from './apiConnection'
+export const getAllFollowers = (setFunction, setError) => {
+  apiConnection('GET', 'relationships', setFunction, setError)
 }
